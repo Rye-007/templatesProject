@@ -1,0 +1,35 @@
+html{
+  font-size: calc(60% + 0.8vmin);
+}
+
+nav{
+    background: #16213E;
+  }
+
+nav button{
+  margin-left: 5rem;
+}
+
+h4{
+  padding-left: 3rem;
+}
+
+.navbar-nav a{
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.container-fluid .input-group{
+  margin-right: 3rem;
+}
+
+.navbar-nav a:hover{
+  color: #1298BC;
+}
+
+.offcanvas-body .dropdown{
+  margin-left: 4rem;
+  font-size: 1rem;
+}

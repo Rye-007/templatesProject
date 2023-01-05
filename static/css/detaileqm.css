@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+html {
+    font-size: calc(50% + 0.8vmin);
+}
+
+.back {
+    margin: 2rem 0 0 2.5rem;
+}
+
+.back img,
+.back a {
+    width: 0.4rem;
+    height: 0.7rem;
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0.6rem 0 0 12rem;
+}
+
+.body_input{
+    display: flex;
+    justify-content: center;
+}
+
+.body_input .box1{
+    margin: 2rem 0 0 0.7rem;
+    min-width: 10rem;
+}
+
+.body_input .box2{
+    margin: 2rem 0 0 0.7rem;
+    min-width: 10rem;
+}
+
+.body_input .box3{
+    margin: 2rem 0 0 0.7rem;
+    min-width: 10rem;
+}
+
+.body_input .box4{
+    margin: 2rem 0 0 0.7rem;
+    min-width: 10rem;
+}
+
+.body_input .box1 .text1,
+.body_input .box3 .text3{
+    margin-bottom: 2.3rem;
+}
+
+.body_input .box2 .form-control,
+.body_input .box4 .form-control{
+    margin-bottom: 1.4rem;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px 0px #ababab;
+}
+
+.body_input div{
+    text-align: right;
+}
+
+.box #detail{
+    height: 10rem;
+}
+
+.box p{
+    min-width: 8.5rem;
+}
+
+.container .row .edit{
+    display: flex;
+    justify-content: end;
+}
+
+.container .row .edit_b{
+    width: 4rem;
+    height: 2rem;
+    background: #FFE86E;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: auto;
+}
+
+.row{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.table-responsive .table{
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+  }
+
+.table-responsive{
+    border-radius: 1rem 1rem 0 0;
+}
+
+.table thead th{
+    font-weight: 200;
+    color: #fff;
+
+  }
+
+.table tbody td{
+    font-weight: 100;
+}
+
+.table .detail{
+    width: 10rem;
+}

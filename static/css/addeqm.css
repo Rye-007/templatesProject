@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+html {
+    font-size: calc(50% + 0.8vmin);
+}
+
+.back {
+    margin: 2rem 0 0 2.5rem;
+}
+
+.back img,
+.back a {
+    width: 0.4rem;
+    height: 0.7rem;
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0.6rem 0 0 12rem;
+}
+
+.body_input{
+    display: flex;
+    justify-content: center;
+}
+
+.body_input .box1{
+    margin: 2rem 0 0 0.7rem;
+    min-width: 10rem;
+}
+
+.body_input .box2{
+    margin: 2rem 0 0 0.7rem;
+    min-width: 10rem;
+}
+
+.body_input .box1 .text1{
+    margin-bottom: 3rem;
+}
+
+
+.body_input .box2 .form-control{
+    width: 25rem;
+    margin-bottom: 2rem;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px 0px #ababab;
+}
+
+.body_input div{
+    text-align: right;
+}
+
+.row{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.button_ac {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.button_ac .accept{
+    margin-right: 3rem;
+}
+
+.button_ac .accept .b_ac{
+    background: #00C54F;
+    color: #fff;
+    width: 5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 0px #ababab;
+}
+
+.button_ac .cancel .b_cc{
+    background: #FF3B3B;
+    color: #fff;
+    width: 5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 0px #ababab;
+}
